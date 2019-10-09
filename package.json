@@ -1,0 +1,25 @@
+{
+    "name": "form",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "dev": "nodemon server/index.js"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "express": "^4.17.1",
+        "mongoose": "^5.7.3",
+        "mongoose-sql": "^1.0.45",
+        "morgan": "^1.9.1",
+        "msnodesqlv8": "^0.8.4",
+        "mssql": "^5.1.0",
+        "sequelize": "^5.19.4"
+    },
+    "devDependencies": {
+        "nodemon": "^1.19.3"
+    }
+}
